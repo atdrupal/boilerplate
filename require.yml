@@ -1,0 +1,25 @@
+# Dependencies for projects.
+#
+# they can be PHP, Javascript libraries, Drupal modules or Drupal themes.
+#
+# Do not list them here if they are already included in custom module/theme.
+#
+# Get the dependencies using Drush:
+#
+#   drush at_require
+#
+# Example:
+# ---------------------
+#
+# projects:
+#   entity:
+#     type: module
+#     version: 1.2
+#     patches:
+#       - patches/issue-123.diff
+#   expression_language:
+#     type: library
+#     download:
+#       type: git
+#       url: https://github.com/symfony/expression-language.git
+#       branch: v2.4.0
