@@ -4,6 +4,7 @@ drushrc.php
 #########################
 # Ignore configuration files that may contain sensitive information.
 settings*.php
+local.settings.php
 
 # Dev Garbage            #
 ##########################
